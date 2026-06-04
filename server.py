@@ -39,4 +39,9 @@ def get_test():
 
 
 if __name__ == "__main__":
-    mcp.run()
+    if __name__ == "__main__":
+    mcp.run(
+        transport="streamable-http",
+        host="0.0.0.0",
+        port=8000
+    )
